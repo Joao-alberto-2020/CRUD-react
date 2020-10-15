@@ -1,0 +1,35 @@
+body{
+    background-image: image(https://www.hdcarwallpapers.com/download/bugatti_chiron_super_sport_300__prototype_2019_4k_8k-3840x2160.jpg)
+}
+
+footer{
+    background-color: crimson;
+}
+.img img{
+    height: 30px; 
+    width: 30px;
+    margin-right: 1rem;
+    /* botar em 30px como padrao */
+} 
+.copyright {
+    font-size: 11px;
+    text-align: center;
+}
+.contato p{
+}
+.contato p a{
+color: yellow
+}
+.contato p a:hover{
+    color: violet
+ }
+
+.cor{
+color: royalblue
+}
+
+
+
+.endereço{
+text-align: 2rem;
+}
