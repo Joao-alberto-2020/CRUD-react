@@ -3,12 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 import {Link, Route} from 'react-router-dom';
 import routesConfig from './routesConfig'
+import  Footer from "./pages/footer/footer"
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header  >
         <nav className="floating">
         <Link to="/user">user</Link>
         <br></br>
@@ -23,6 +24,7 @@ function App() {
           ></Route>
         }
       )}
+      <Footer></Footer>
     </div>
   );
 }

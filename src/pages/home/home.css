@@ -1,0 +1,25 @@
+.home{
+    height: 1000px;
+    background-color: rgba(0, 255, 255, 0.0.1);
+}
+
+#fota{
+    opacity: 100%;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+.foto{
+    height: 50%;
+    filter: blur(0px);
+}
+
+.borda{
+    border: 0.1px solid rgba(0, 255, 255, 0.4);
+    border-radius: 10px;
+    background-color: rgba(0, 255, 255, 0.4);
+}
